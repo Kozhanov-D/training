@@ -1,0 +1,41 @@
+.team__bg{
+    background-color: #f9ebff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__title{
+    font-size: 34px;
+    color: #2154e0;
+}
+.teamacco{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.teamacco__content{
+    display: flex;
+    overflow: hidden;
+    height: 0;
+}
+.teamacco__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.teamacco__pic{
+    margin-left: 10px;
+}
+.teamacco__img{
+    width: 130px;
+    border-radius: 50%;
+}
+a:focus + .teamacco__content{
+    height: 150px;
+    overflow: visible;
+
+}
+
